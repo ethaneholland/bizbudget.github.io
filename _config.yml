@@ -1,0 +1,24 @@
+title: BizBudget
+description: Smart business management for small business owners
+baseurl: ""
+url: ""
+
+theme: null
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+
+navigation:
+  - title: Overview
+    url: "#overview"
+  - title: Features
+    url: "#features"
+  - title: Demo
+    url: "#demo"
+  - title: Postmortem
+    url: "#postmortem"
+  - title: Team
+    url: "#team"
