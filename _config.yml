@@ -1,7 +1,7 @@
 title: BizBudget
 description: Smart business management for small business owners
-baseurl: ""
-url: ""
+baseurl: "/bizbudget"
+url: "https://ethaneholland.github.io"
 
 theme: null
 
