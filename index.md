@@ -8,8 +8,8 @@ title: BizBudget — COMP 3350
   <p class="hero-eyebrow">COMP 3350 • Winter 2026 • Group A01-G14</p>
   <h1 class="hero-title">BizBudget<br><em>An operations tracker <br>for business owners.</em></h1>
   <p class="hero-sub">BizBudget is an Android application that gives business owners a complete view of their employees, inventory, finances, and scheduling.</p>
-  <div class="hero-badges">
-    <span class="badge">Download APK</span>
+  <div class="apk-button-container">
+    <a href="app-dubug.apk"><span class="apk-button">Download APK</span></a>
   </div>
 </section>
 
