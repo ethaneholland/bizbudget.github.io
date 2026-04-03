@@ -1,7 +1,3 @@
-/* ============================================
-   BizBudget Website — Simplified Stylesheet
-   ============================================ */
-
 :root {
   --dark-blue: #001845;
   --medium-blue: #C7D6EB;
@@ -11,19 +7,17 @@
   --gray: #636363;
   --white: #ffffff;
 
-  --font-display: 'Verdana';
-  --font-body: 'Verdana';
-  --font-mono: 'Verdana';
+  --font: 'Verdana';
 
-  --max-w: 1100px;
-  --nav-h: 64px;
+  --max-width: 1100px;
+  --nav-height: 64px;
 }
 
-/* ---- Reset ---- */
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 body {
-  font-family: var(--font-body);
+  font-family: var(--font);
   color: var(--dark-blue);
   background: var(--white);
   line-height: 1.65;
@@ -32,16 +26,16 @@ a { color: inherit; text-decoration: none; }
 ul { list-style: none; }
 img, video { max-width: 100%; display: block; }
 
-/* ---- Nav ---- */
+
 .site-nav {
   position: fixed;
   top: 0; left: 0; right: 0;
-  height: var(--nav-h);
+  height: var(--nav-height);
   background: var(--dark-blue);
   z-index: 100;
 }
 .nav-inner {
-  max-width: var(--max-w);
+  max-width: var(--max-width);
   margin: 0 auto;
   height: 100%;
   display: flex;
@@ -70,14 +64,14 @@ img, video { max-width: 100%; display: block; }
 .nav-links a:hover { color: var(--white); }
 .nav-toggle { display: none; }
 
-/* ---- Sections ---- */
+
 section { padding: 5rem 2rem; }
 .section-inner {
-  max-width: var(--max-w);
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 .section-label {
-  font-family: var(--font-mono);
+  font-family: var(--font);
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -86,7 +80,7 @@ section { padding: 5rem 2rem; }
   font-weight:bold;
 }
 .section-title {
-  font-family: var(--font-display);
+  font-family: var(--font);
   font-size: clamp(1.8rem, 3.5vw, 2.75rem);
   line-height: 1.1;
   margin-bottom: 1rem;
@@ -98,7 +92,7 @@ section { padding: 5rem 2rem; }
   font-weight: 300;
 }
 
-/* ---- Hero ---- */
+
 #hero {
   min-height: 100vh;
   background: var(--dark-blue);
@@ -107,18 +101,18 @@ section { padding: 5rem 2rem; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: calc(var(--nav-h) + 3rem) 2rem 4rem;
+  padding: calc(var(--nav-height) + 3rem) 2rem 4rem;
 }
 .hero-title {
-  font-family: var(--font-display);
-  font-size: clamp(1.9rem, 4vw, 5rem);
+  font-family: var(--font);
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
   color: var(--white);
   line-height: 1.05;
   margin-bottom: 1.25rem;
 }
 .hero-title em { color: var(--medium-blue); font-style: italic; }
 .hero-eyebrow {
-  font-family: var(--font-mono);
+  font-family: var(--font);
   font-size: 0.75rem;
   color: var(--bright-blue);
   letter-spacing: 0.15em;
@@ -132,23 +126,29 @@ section { padding: 5rem 2rem; }
   max-width: 520px;
   margin: 0 auto 2rem;
 }
-.hero-badges {
+.apk-button-container {
   display: flex;
   gap: 0.6rem;
   justify-content: center;
   flex-wrap: wrap;
 }
-.badge {
+.apk-button {
   background: rgba(199,214,235,0.12);
   border: 1px solid rgba(199,214,235,0.25);
   color: var(--medium-blue);
   font-size: 0.78rem;
-  font-family: var(--font-mono);
+  font-family: var(--font);
   padding: 0.35rem 0.9rem;
   border-radius: 99px;
 }
+.apk-button:hover {
+  background-color: rgba(199,214,235,0.05);
+  border: 1px solid white;
+  transition: border 100ms linear;
+  transition: background-color 100ms linear;
+}
 
-/* ---- Overview ---- */
+
 #overview { background: var(--white); }
 .overview-grid {
   display: grid;
@@ -171,7 +171,7 @@ section { padding: 5rem 2rem; }
   margin-top: 0.75rem;
 }
 .users-block h3 {
-  font-family: var(--font-display);
+  font-family: var(--font);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -194,7 +194,7 @@ section { padding: 5rem 2rem; }
 .user-card h4 { font-weight: 600; font-size: 0.95rem; margin-bottom: 0.15rem; }
 .user-card p { font-size: 0.875rem; color: var(--gray); }
 
-/* ---- Features ---- */
+
 #features { background: var(--light-blue); }
 .features-grid {
   display: grid;
@@ -210,13 +210,13 @@ section { padding: 5rem 2rem; }
 }
 .feature-icon { font-size: 1.5rem; margin-bottom: 1rem; }
 .feature-card h3 {
-  font-family: var(--font-display);
+  font-family: var(--font);
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 .feature-card p { font-size: 0.875rem; color: var(--gray); }
 
-/* ---- Demo ---- */
+
 #demo { background: var(--dark-blue); }
 #demo .section-title { color: var(--white); }
 #demo .section-lead { color: var(--medium-blue); }
@@ -246,7 +246,7 @@ section { padding: 5rem 2rem; }
   padding: 1.25rem;
 }
 .flow-step .step-num {
-  font-family: var(--font-mono);
+  font-family: var(--font);
   font-size: 0.7rem;
   color: var(--bright-blue);
   letter-spacing: 0.1em;
@@ -255,7 +255,7 @@ section { padding: 5rem 2rem; }
 .flow-step h4 { color: var(--white); font-size: 0.9rem; }
 .flow-step p { color: var(--medium-blue); font-size: 0.8rem; margin-top: 0.3rem; }
 
-/* ---- Postmortem ---- */
+
 #postmortem { background: var(--white); }
 .postmortem-layout {
   display: grid;
@@ -265,7 +265,7 @@ section { padding: 5rem 2rem; }
 }
 .postmortem-nav {
   position: sticky;
-  top: calc(var(--nav-h) + 1.5rem);
+  top: calc(var(--nav-height) + 1.5rem);
   height: fit-content;
 }
 .postmortem-nav a {
@@ -289,7 +289,7 @@ section { padding: 5rem 2rem; }
 }
 .pm-section:last-child { border-bottom: none; margin-bottom: 0; }
 .pm-section h3 {
-  font-family: var(--font-display);
+  font-family: var(--font);
   font-size: 1.4rem;
   margin-bottom: 0.75rem;
 }
@@ -306,33 +306,46 @@ section { padding: 5rem 2rem; }
   border-radius: 0 6px 6px 0;
   margin: 1.25rem 0;
 }
-.callout p { color: var(--dark-blue); font-weight: 500; margin: 0; }
+.callout p { 
+  color: var(--dark-blue); 
+  font-weight: 500; 
+  margin: 0; 
+}
 .two-col {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.25rem;
   margin: 1.25rem 0;
 }
-.card-well {
+.card-container {
   background: var(--off-white);
   border-radius: 6px;
   padding: 1.25rem;
 }
-.card-well h4 {
+.card-container h4 {
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 0.75rem;
 }
-.card-well ul { list-style: disc; padding-left: 1rem; }
-.card-well li { font-size: 0.875rem; color: var(--gray); margin-bottom: 0.35rem; }
-.card-well.green { background: #eef6ee; }
-.card-well.green h4 { color: var(--bright-blue); }
-.card-well.blue { background: var(--light-blue); }
-.card-well.blue h4 { color: var(--dark-blue); }
+.card-container ul { 
+  list-style: disc; 
+  padding-left: 1rem; 
+}
+.card-container li { 
+  font-size: 0.875rem; 
+  color: var(--gray); 
+  margin-bottom: 0.35rem; 
+}
+.card-container.green { 
+  background: #eef6ee; 
+}
+.card-container.green h4 { 
+  color: var(--dark-blue); 
+}
 
-/* ---- Team ---- */
+
 #team { background: var(--medium-blue); }
 .team-grid {
   display: grid;
@@ -362,7 +375,7 @@ section { padding: 5rem 2rem; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-display);
+  font-family: var(--font);
   font-size: 1.3rem;
   color: var(--white);
   margin-bottom: 0.75rem;
@@ -371,11 +384,12 @@ section { padding: 5rem 2rem; }
 .team-card .team-role {
   font-size: 0.75rem;
   color: var(--bright-blue);
-  font-family: var(--font-mono);
+  font-family: var(--font);
   margin-bottom: 0.75rem;
   font-weight:bold;
 }
-/* ---- Footer ---- */
+
+
 .site-footer {
   background: var(--dark-blue);
   color: var(--medium-blue);
@@ -394,7 +408,7 @@ section { padding: 5rem 2rem; }
 .footer-course { font-size: 0.85rem; margin-bottom: 0.25rem; }
 .footer-copy { font-size: 0.8rem; color: var(--gray); }
 
-/* ---- Responsive ---- */
+
 @media (max-width: 900px) {
   .overview-grid { grid-template-columns: 1fr; gap: 2rem; }
   .features-grid { grid-template-columns: 1fr 1fr; }
@@ -411,7 +425,7 @@ section { padding: 5rem 2rem; }
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: var(--nav-h);
+    top: var(--nav-height);
     left: 0; right: 0;
     background: var(--dark-blue);
     padding: 1.5rem 2rem;

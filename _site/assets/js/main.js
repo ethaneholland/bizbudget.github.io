@@ -1,10 +1,11 @@
-// Nav scroll effect
+// Copied this from somewhere don't ask me how it works.
+
 const nav = document.getElementById('site-nav');
 window.addEventListener('scroll', () => {
   nav.classList.toggle('scrolled', window.scrollY > 40);
 });
 
-// Mobile nav toggle
+
 const toggle = document.getElementById('nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 if (toggle) {
@@ -13,12 +14,12 @@ if (toggle) {
   });
 }
 
-// Close mobile nav on link click
+
 document.querySelectorAll('.nav-links a').forEach(link => {
   link.addEventListener('click', () => navLinks.classList.remove('open'));
 });
 
-// Scroll reveal
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(e => {
     if (e.isIntersecting) {
@@ -30,7 +31,7 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-// Active postmortem nav link
+
 const pmLinks = document.querySelectorAll('.postmortem-nav a');
 const pmSections = document.querySelectorAll('.pm-section');
 if (pmSections.length) {
