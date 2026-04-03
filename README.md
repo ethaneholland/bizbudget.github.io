@@ -1,1 +1,3 @@
-# bizbudget.github.io
+# bizbudget website
+
+Visit at: https://ethaneholland.github.io/bizbudget/
