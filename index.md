@@ -154,7 +154,7 @@ title: BizBudget — COMP 3350
           <li><a href="#pm-arch">Architecture</a></li>
           <li><a href="#pm-what-went-well">What Went Well</a></li>
           <li><a href="#pm-what-went-wrong">What Went Wrong</a></li>
-          <li><a href="#pm-dev-team-techniques">Development and Team Management Techniques Utilized</a></li>
+          <li><a href="#pm-dev-team-techniques">Development and Team Management Techniques</a></li>
           <li><a href="#pm-iteration-2">Iteration 2 Improvements</a></li>
         </ul>
       </nav>
@@ -223,10 +223,13 @@ title: BizBudget — COMP 3350
             <p>Example branch name for a documentation push: doc/[<em>issue-number</em>]-[<em>description of changes</em>]</p>
           </div>
           <div class="callout">
-            <p>TDD?</p>
+            <h4>Frequent Meetings</h4>
+            <p>At the beginning of each iteration, the team would have an in depth meeting to plan features, discuss design ideas, distribution of tasks, and expectations on the timeline of deliverables. This was a mandatory meeting that everyone attended, as the decisions made here would impact the direction of the whole iteration. </p>
+            <p>Every day or two, members would communicate via group chat their progress, questions, and the design strategies that they are using to implement their features. Even if little progress has been made due to external commitments, these checkins ensured that the whole team had an understanding of their progress on the iteration.</p>
+            <p>Two to three times a week the team would do quick audio-calls to discuss progress and any questions. These helped communicate statuses that are hard to articulate through text. For these meetings we prioritized frequency over mandatory attendance, if a team member was unable to attend we would still hold the meeting. Avoiding the burden of coordination that comes with mandatory attendance meant that we were able to hold the meetings at a much higher rate.</p>
           </div>
           <div class="callout">
-            <p>SCRUM?</p>
+            <p>TDD?</p>
           </div>
         </div>
 
