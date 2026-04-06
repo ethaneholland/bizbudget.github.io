@@ -72,7 +72,7 @@ title: BizBudget — COMP 3350
       <div class="feature-card reveal">
         <div class="feature-icon">✔</div>
         <h3>Financial Overview</h3>
-        <p>Review overall expenses and income throughout the day.</p>
+        <p>Review overall expenses and income throughout the day. Find out how much the business has spent on salary and stock, and compare against total income.</p>
       </div>
       <div class="feature-card reveal">
         <div class="feature-icon">✔</div>
@@ -87,7 +87,7 @@ title: BizBudget — COMP 3350
       <div class="feature-card reveal">
         <div class="feature-icon">✔</div>
         <h3>Inventory Tracking</h3>
-        <p>Review a list of your entire businesses stock, products sold, and profit per item.</p>
+        <p>Review a list of your entire businesses stock, products sold, and profit per item. Attempted oversells are caught and rejected to ensure a valid inventory list.</p>
       </div>
       <div class="feature-card reveal">
         <div class="feature-icon">✔</div>
@@ -120,18 +120,22 @@ title: BizBudget — COMP 3350
       <div class="flow-step">
         <p class="step-num">01</p>
         <h4>Register &amp; Login</h4>
+        <p>Create an account and log in. BizBudget validates credentials and routes authenticated users directly to their dashboard.</p>
       </div>
       <div class="flow-step">
         <p class="step-num">02</p>
         <h4>Manage Employees</h4>
+        <p>Browse your employee list, add new staff, edit details, or remove employees who have left. Active status updates automatically based on scheduled shifts</p>
       </div>
       <div class="flow-step">
         <p class="step-num">03</p>
         <h4>Track Inventory</h4>
+        <p>Add items, adjust stock, record sales, and monitor quantities across your products. Attempted oversells are caught and rejected to ensure a valid inventory list.</p>
       </div>
       <div class="flow-step">
         <p class="step-num">04</p>
         <h4>Review Financials</h4>
+        <p>View the businesses spending activity and income. Congregate financial data allows you to stay on top of financial health without pouring through spreasheets.</p>
       </div>
     </div>
   </div>
@@ -159,9 +163,16 @@ title: BizBudget — COMP 3350
 
         <div class="pm-section reveal" id="pm-arch">
           <h3>Overall Architecture</h3>
-          <p>temp</p>
+          <p>BizBudget follows a three-tier architecture: a Presentation layer of Android Activities and dialogs, a Business layer of service classes and validators, and a Persistence layer implemented with SQLite. Each layer communicates only through defined interfaces, and dependencies are injected via constructors throughout the business layer.</p>
+          <p>Business logic is kept entirely out of the Presentation layer, keeping validation and decisions on how to handle user queries behind several Business layer service interfaces. A DashboardService <a href="https://refactoring.guru/design-patterns/facade" target="_blank">facade</a> wraps the underlying services to provide a clean, minimal interface to the presentation layer without exposing unneeded methods.</p>
           <div class="callout">
-            <p>temp?</p>
+            <p>Each layer communicates only through defined interfaces, and dependencies are injected via constructors throughout the business layer. This allows:</p>
+            <ul>
+              <li><strong>Testability</strong><br>
+                Dependency injection enables the business layer to have reliable and high-coverage unit tests on the business layer. Unit tests inject fake repositories and stub interface implementations.</li>
+              <li><strong>Extension</strong><br>
+                Dependency injection allows new implementations to be created and swapped in as needed. Android dependencies are injected into the business layer. Isolating the business layer from the specific Android implementation details allows an easier transition into non-android deployments.</li>
+            </ul> 
           </div>
         </div>
 
