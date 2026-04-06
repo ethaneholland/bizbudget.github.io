@@ -167,12 +167,12 @@ title: BizBudget — COMP 3350
           <p>Business logic is kept entirely out of the Presentation layer, keeping validation and decisions on how to handle user queries behind several Business layer service interfaces. A DashboardService <a href="https://refactoring.guru/design-patterns/facade" target="_blank">facade</a> wraps the underlying services to provide a clean, minimal interface to the presentation layer without exposing unneeded methods.</p>
           <p>Each layer communicates only through defined interfaces, and dependencies are injected via constructors throughout the business layer.</p>
           <div class="callout">
-            <p><strong>Testability</strong><br>
-              Dependency injection enables the business layer to have reliable and high-coverage unit tests on the business layer. Unit tests inject fake repositories and stub interface implementations.</p>
+            <h4>Testability</h4>
+            <p>Dependency injection enables the business layer to have reliable and high-coverage unit tests on the business layer. Unit tests inject fake repositories and stub interface implementations.</p>
           </div>
           <div class="callout">
-            <p><strong>Extension</strong><br>
-              Dependency injection allows new implementations to be created and swapped in as needed. Android dependencies are injected into the business layer. Isolating the business layer from the specific Android implementation details allows an easier transition into non-android deployments.</p>
+            <h4>Extension</h4>
+            <p>Dependency injection allows new implementations to be created and swapped in as needed. Android dependencies are injected into the business layer. Isolating the business layer from the specific Android implementation details allows an easier transition into non-android deployments.</p>
           </div>
         </div>
 
@@ -216,8 +216,8 @@ title: BizBudget — COMP 3350
           <p>temp</p>
           <p>temp</p>
           <div class="callout">
-            <p><strong>Branching Strategy</strong><br>
-              All development work happened on dedicated branches that were reviewed and merged into main via GitLab Merge Requests. This kept main stable.</p>
+            <h4>Branching Strategy</h4>
+            <p>All development work happened on dedicated branches that were reviewed and merged into main via GitLab Merge Requests. This kept main stable.</p>
             <p>Each branch would be named with the associated GitLab issue that it was attempting to resolve. The result was that each commit and merge request could be easily mapped to associated issues. Non-feature branches would then be sorted by topic: fix, test, db, or doc. This meant that major feature implementations could be parsed from more niche deliverables such as bug fixes or tests.</p>
             <p>Example branch name for a documentation push: doc/[issue-number]-[description of changes]</p>
           </div>
