@@ -324,11 +324,15 @@ section { padding: 5rem 2rem; }
   color: var(--dark-blue); 
   font-weight: 500; 
   margin: 0; 
+  font-size: 0.875rem; 
+  margin-bottom: 0.35rem;
 }
 .callout li { 
   color: var(--dark-blue); 
   font-weight: 500; 
   margin: 0; 
+  font-size: 0.875rem; 
+  margin-bottom: 0.35rem;
 }
 .two-col {
   display: grid;
