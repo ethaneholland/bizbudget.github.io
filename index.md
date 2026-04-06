@@ -168,7 +168,7 @@ title: BizBudget — COMP 3350
           <p>Each layer communicates only through defined interfaces, and dependencies are injected via constructors throughout the business layer.</p>
           <div class="callout">
             <h4>Testability</h4>
-            <p>Dependency injection enables the business layer to have reliable and high-coverage unit tests on the business layer. Unit tests inject fake repositories and stub interface implementations.</p>
+            <p>Dependency injection enables the business layer to have high-coverage unit tests on the business layer. Unit tests inject fake repositories and stub interface implementations for reliability and predictability during tests.</p>
           </div>
           <div class="callout">
             <h4>Extension</h4>
@@ -183,6 +183,7 @@ title: BizBudget — COMP 3350
               <h4>Strengths</h4>
               <ul>
                 <li>Through each iteration, team meetings progressively became shorter while maintaining similar output. The team grew more comfortable delegating, reviewing, and resolving issues. A joint understanding of the project scope, and each team-members strengths allowed problem-solving to become much more quick and effective.</li>
+                <li>Feature implementation became much more streamlined in Iteration 3, facilitated by a well-defined testing suite ensuring the stability of methods, architectural streams, and end to end functionality. Lessening the need for manual testing meant that features could be reviewed and merged much faster.</li>
                 <li>temp</li>
               </ul>
             </div>
