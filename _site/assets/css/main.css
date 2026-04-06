@@ -165,7 +165,7 @@ section { padding: 5rem 2rem; }
 .vision-block .section-label { color: var(--medium-blue); }
 .vision-block .section-title { color: var(--white); font-size: 1.5rem; }
 .vision-text {
-  color: var(--medium-blue);
+  color: white;
   font-weight: 300;
   line-height: 1.75;
   margin-top: 0.75rem;
@@ -292,6 +292,9 @@ section { padding: 5rem 2rem; }
   font-family: var(--font);
   font-size: 1.4rem;
   margin-bottom: 0.75rem;
+}
+.pm-section a {
+  text-decoration: underline;
 }
 .pm-section p {
   color: var(--gray);
