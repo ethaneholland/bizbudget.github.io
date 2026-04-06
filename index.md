@@ -182,7 +182,7 @@ title: BizBudget — COMP 3350
             <div class="card-container green">
               <h4>Strengths</h4>
               <ul>
-                <li>temp</li>
+                <li>Through each iteration, team meetings progressively became shorter while maintaining similar output. The team grew more comfortable delegating, reviewing, and resolving issues. A joint understanding of the project scope, and each team-members strengths allowed problem-solving to become much more quick and effective.</li>
                 <li>temp</li>
               </ul>
             </div>
