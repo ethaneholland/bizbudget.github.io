@@ -204,7 +204,7 @@ title: BizBudget — COMP 3350
             <div class="card-container">
               <h4>What We Would Change If Starting Over</h4>
               <ul>
-                <li>temp</li>
+                <li>Transition to an hour-based time estimation from the start rather than day-based estimates, which the team found too broad for accurate planning.</li>
                 <li>temp</li>
               </ul>
             </div>
@@ -219,7 +219,7 @@ title: BizBudget — COMP 3350
             <h4>Branching Strategy</h4>
             <p>All development work happened on dedicated branches that were reviewed and merged into main via GitLab Merge Requests. This kept main stable.</p>
             <p>Each branch would be named with the associated GitLab issue that it was attempting to resolve. The result was that each commit and merge request could be easily mapped to associated issues. Non-feature branches would then be sorted by topic: fix, test, db, or doc. This meant that major feature implementations could be parsed from more niche deliverables such as bug fixes or tests.</p>
-            <p>Example branch name for a documentation push: doc/[issue-number]-[description of changes]</p>
+            <p>Example branch name for a documentation push: doc/[<em>issue-number</em>]-[<em>description of changes</em>]</p>
           </div>
           <div class="callout">
             <p>TDD?</p>
