@@ -166,13 +166,15 @@ title: BizBudget — COMP 3350
           <p>BizBudget follows a three-tier architecture: a Presentation layer of Android Activities and dialogs, a Business layer of service classes and validators, and a Persistence layer implemented with SQLite. Each layer communicates only through defined interfaces, and dependencies are injected via constructors throughout the business layer.</p>
           <p>Business logic is kept entirely out of the Presentation layer, keeping validation and decisions on how to handle user queries behind several Business layer service interfaces. A DashboardService <a href="https://refactoring.guru/design-patterns/facade" target="_blank">facade</a> wraps the underlying services to provide a clean, minimal interface to the presentation layer without exposing unneeded methods.</p>
           <p>Each layer communicates only through defined interfaces, and dependencies are injected via constructors throughout the business layer.</p>
-          <div class="callout">
-            <h4>Testability</h4>
-            <p>Dependency injection enables the business layer to have high-coverage unit tests on the business layer. Unit tests inject fake repositories and stub interface implementations for reliability and predictability during tests.</p>
-          </div>
-          <div class="callout">
-            <h4>Extension</h4>
-            <p>Dependency injection allows new implementations to be created and swapped in as needed. Android dependencies are injected into the business layer. Isolating the business layer from the specific Android implementation details allows an easier transition into non-android deployments.</p>
+          <div class="two-col">
+            <div class="card-container blue">
+              <h4>Testability</h4>
+              <p>Dependency injection enables the business layer to have high-coverage unit tests on the business layer. Unit tests inject fake repositories and stub interface implementations for reliability and predictability during tests.</p>
+            </div>
+            <div class="card-container blue">
+              <h4>Extension</h4>
+              <p>Dependency injection allows new implementations to be created and swapped in as needed. Android dependencies are injected into the business layer. Isolating the business layer from the specific Android implementation details allows an easier transition into non-android deployments.</p>
+            </div>
           </div>
         </div>
 
@@ -212,20 +214,22 @@ title: BizBudget — COMP 3350
           <h3>Development and Team Management Techniques Utilized</h3>
           <p>temp</p>
           <p>temp</p>
-          <div class="callout">
-            <h4>Branching Strategy</h4>
-            <p>All development work happened on dedicated branches that were reviewed and merged into main via GitLab Merge Requests. This kept main stable.</p>
-            <p>Each branch would be named with the associated GitLab issue that it was attempting to resolve. The result was that each commit and merge request could be easily mapped to associated issues. Non-feature branches would then be sorted by topic: fix, test, db, or doc. This meant that major feature implementations could be parsed from more niche deliverables such as bug fixes or tests.</p>
-            <p>Example branch name for a documentation push: doc/[<em>issue-number</em>]-[<em>description of changes</em>]</p>
-          </div>
-          <div class="callout">
-            <h4>Frequent Meetings</h4>
-            <p>At the beginning of each iteration, the team would have an in depth meeting to plan features, discuss design ideas, distribution of tasks, and expectations on the timeline of deliverables. This was a mandatory meeting that everyone attended, as the decisions made here would impact the direction of the whole iteration. </p>
-            <p>Every day or two, members would communicate via group chat their progress, questions, and the design strategies that they are using to implement their features. Even if little progress has been made due to external commitments, these checkins ensured that the whole team had an understanding of their progress on the iteration.</p>
-            <p>Two to three times a week the team would do quick audio-calls to discuss progress and any questions. These helped communicate statuses that are hard to articulate through text. For these meetings we prioritized frequency over mandatory attendance, if a team member was unable to attend we would still hold the meeting. Avoiding the burden of coordination that comes with mandatory attendance meant that we were able to hold the meetings at a much higher rate.</p>
-          </div>
-          <div class="callout">
-            <p>TDD?</p>
+          <div class="two-col">
+            <div class="card-container blue">
+              <h4>Branching Strategy</h4>
+              <p>All development work happened on dedicated branches that were reviewed and merged into main via GitLab Merge Requests. This kept main stable.</p>
+              <p>Each branch would be named with the associated GitLab issue that it was attempting to resolve. The result was that each commit and merge request could be easily mapped to associated issues. Non-feature branches would then be sorted by topic: fix, test, db, or doc. This meant that major feature implementations could be parsed from more niche deliverables such as bug fixes or tests.</p>
+              <p>Example branch name for a documentation push: doc/[<em>issue-number</em>]-[<em>description of changes</em>]</p>
+            </div>
+            <div class="card-container blue">
+              <h4>Frequent Meetings</h4>
+              <p>At the beginning of each iteration, the team would have an in depth meeting to plan features, discuss design ideas, distribution of tasks, and expectations on the timeline of deliverables. This was a mandatory meeting that everyone attended, as the decisions made here would impact the direction of the whole iteration. </p>
+              <p>Every day or two, members would communicate via group chat their progress, questions, and the design strategies that they are using to implement their features. Even if little progress has been made due to external commitments, these checkins ensured that the whole team had an understanding of their progress on the iteration.</p>
+              <p>Two to three times a week the team would do quick audio-calls to discuss progress and any questions. These helped communicate statuses that are hard to articulate through text. For these meetings we prioritized frequency over mandatory attendance, if a team member was unable to attend we would still hold the meeting. Avoiding the burden of coordination that comes with mandatory attendance meant that we were able to hold the meetings at a much higher rate.</p>
+            </div>
+            <div class="card-container blue">
+              <p>TDD?</p>
+            </div>
           </div>
         </div>
 

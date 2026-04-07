@@ -1,7 +1,8 @@
 :root {
   --dark-blue: #001845;
   --medium-blue: #C7D6EB;
-  --light-blue: #D5E4F7;
+  --light-blue: #e3eefa;
+  --lighter-blue: #e3eefa;
   --off-white: #E3E3E3;
   --bright-blue: #0099CC;
   --gray: #636363;
@@ -314,7 +315,7 @@ section { padding: 5rem 2rem; }
   list-style-type: disc;
 }
 .callout {
-  background: var(--light-blue);
+  background: var(--lighter-blue);
   border-left: 3px solid var(--dark-blue);
   padding: 1rem 1.25rem;
   border-radius: 0 6px 6px 0;
@@ -328,14 +329,14 @@ section { padding: 5rem 2rem; }
   margin-bottom: 0.35rem;
 }
 .callout p { 
-  color: var(--dark-blue); 
+  color: var(--gray); 
   font-weight: 500; 
   margin: 0; 
   font-size: 0.875rem; 
   margin-bottom: 0.35rem;
 }
 .callout li { 
-  color: var(--dark-blue); 
+  color: var(--gray); 
   font-weight: 500; 
   margin: 0; 
   font-size: 0.875rem; 
@@ -363,15 +364,17 @@ section { padding: 5rem 2rem; }
   list-style: disc; 
   padding-left: 1rem; 
 }
-.card-container li { 
-  font-size: 0.875rem; 
-  color: var(--gray); 
-  margin-bottom: 0.35rem; 
-}
+
 .card-container.green { 
   background: #eef6ee; 
 }
 .card-container.green h4 { 
+  color: var(--dark-blue); 
+}
+.card-container.blue { 
+  background: var(--lighter-blue); 
+}
+.card-container.blue h4 { 
   color: var(--dark-blue); 
 }
 
