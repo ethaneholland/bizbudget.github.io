@@ -192,21 +192,17 @@ title: BizBudget — COMP 3350
 
         <div class="pm-section reveal" id="pm-what-went-wrong">
           <h3>What Went Wrong</h3>
-          <p>temp</p>
-          <p>temp</p>
           <div class="two-col">
             <div class="card-container">
-              <h4>Unexpected Technical Difficulties</h4>
-              <ul>
-                <li>temp</li>
-                <li>temp</li>
-              </ul>
+              <h4>Feature bottlenecks</h4>
+              <p>Task dependencies created bottlenecks throughout development. Features that spanned multiple layers required one developer to finish their piece before another could begin theirs, leaving team members waiting rather than contributing. This was most noticeable early in the project.</p>
+              <p>We tackled this problem in a couple different ways, though there is still a lot of improvement that could have been made. Firstly, we tried to assign tasks based on each developer's time table. Preliminary tasks were given to members that had most of their spare time at the beginning of the iteration, and later stage tasks to developers that were busy near the start of the iteration.</p>
             </div>
             <div class="card-container">
               <h4>What We Would Change If Starting Over</h4>
               <ul>
                 <li>Transition to an hour-based time estimation from the start rather than day-based estimates, which the team found too broad for accurate planning.</li>
-                <li>temp</li>
+                <li>Ensure that the team gets hands on experience with each aspect of the codebase as early as possible. Early on, developers were specialized in their contributions (either logic, UI, testing, etc.). We found considerable improvement in code quantity and quality once each member was comfortable with how the whole architecture worked.</li>
               </ul>
             </div>
           </div>
