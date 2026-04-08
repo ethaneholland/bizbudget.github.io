@@ -217,8 +217,6 @@ title: BizBudget &ndash; COMP 3350
 
         <div class="pm-section reveal" id="pm-dev-team-techniques">
           <h3>Development and Team Management Techniques Utilized</h3>
-          <p>temp</p>
-          <p>temp</p>
           <div class="two-col">
             <div class="card-container blue">
               <h4>Branching Strategy</h4>
@@ -228,7 +226,7 @@ title: BizBudget &ndash; COMP 3350
             </div>
             <div class="card-container blue">
               <h4>Frequent Meetings</h4>
-              <p>At the beginning of each iteration, the team would have an in depth meeting to plan features, discuss design ideas, distribution of tasks, and expectations on the timeline of deliverables. This was a mandatory meeting that everyone attended, as the decisions made here would impact the direction of the whole iteration. </p>
+              <p>BizBudget was created under an Agile workflow across three iterations. At the beginning of each iteration, the team would have an in depth meeting to plan features, discuss design ideas, distribution of tasks, and expectations on the timeline of deliverables. This was a mandatory meeting that everyone attended, as the decisions made here would impact the direction of the whole iteration. </p>
               <p>Every day or two, members would communicate via group chat their progress, questions, and the design strategies that they are using to implement their features. Even if little progress has been made due to external commitments, these checkins ensured that the whole team had an understanding of their progress on the iteration.</p>
               <p>Two to three times a week the team would do quick audio-calls to discuss progress and any questions. These helped communicate statuses that are hard to articulate through text. For these meetings we prioritized frequency over mandatory attendance, if a team member was unable to attend we would still hold the meeting. Avoiding the burden of coordination that comes with mandatory attendance meant that we were able to hold the meetings at a much higher rate.</p>
             </div>
