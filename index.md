@@ -1,11 +1,11 @@
 ---
 layout: default
-title: BizBudget — COMP 3350
+title: BizBudget &ndash; COMP 3350
 ---
 
 
 <section id="hero">
-  <p class="hero-eyebrow">COMP 3350 • Winter 2026 • Group A01-G14</p>
+  <p class="hero-eyebrow">COMP 3350 • Winter 2026 • Group A01&ndash;G14</p>
   <h1 class="hero-title">BizBudget<br><em>An operations tracker <br>for business owners.</em></h1>
   <p class="hero-sub">BizBudget is an Android application that gives business owners a complete view of their employees, inventory, finances, and scheduling.</p>
   <div class="apk-button-container">
@@ -201,10 +201,15 @@ title: BizBudget — COMP 3350
               <p>We tackled this problem in a couple different ways, though there is still a lot of improvement that could have been made. Firstly, we tried to assign tasks based on each developer's time table. Preliminary tasks were given to members that had most of their spare time at the beginning of the iteration, and later stage tasks to developers that were busy near the start of the iteration.</p>
             </div>
             <div class="card-container">
+              <h4>Testing Afterwards</h4>
+              <p>Test Driven Development was part of our intended workflow, but it was difficult to maintain consistently throughout the project. UI heavy tasks made it easy to deprioritize writing tests upfront. Time pressure and feature bottlenecks further stressing those time constraints led to us writing tests after the fact more often than we would have liked.</p>
+            </div>
+            <div class="card-container">
               <h4>What We Would Change If Starting Over</h4>
               <ul>
                 <li>Transition to an hour-based time estimation from the start rather than day-based estimates, which the team found too broad for accurate planning.</li>
                 <li>Ensure that the team gets hands on experience with each aspect of the codebase as early as possible. Early on, developers were specialized in their contributions (either logic, UI, testing, etc.). We found considerable improvement in code quantity and quality once each member was comfortable with how the whole architecture worked.</li>
+                <li>Place more priority on Test Driven Development throughout the development cycle. Breaking work down into smaller tasks would help create opportunities for integrating testing into the code writing process.</li>
               </ul>
             </div>
           </div>
@@ -228,7 +233,7 @@ title: BizBudget — COMP 3350
               <p>Two to three times a week the team would do quick audio-calls to discuss progress and any questions. These helped communicate statuses that are hard to articulate through text. For these meetings we prioritized frequency over mandatory attendance, if a team member was unable to attend we would still hold the meeting. Avoiding the burden of coordination that comes with mandatory attendance meant that we were able to hold the meetings at a much higher rate.</p>
             </div>
             <div class="card-container blue">
-              <p>TDD?</p>
+              <p>temp</p>
             </div>
           </div>
         </div>
