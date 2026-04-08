@@ -398,8 +398,22 @@ section { padding: 5rem 2rem; }
   font-size: 0.875rem;
   color: var(--gray);
   line-height: 1.7;
-  margin-top: 0.75rem;
-  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.team-section {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--medium-blue);
+}
+.team-section-label {
+  font-size: 0.7rem;
+  font-family: var(--font);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bright-blue);
+  margin-bottom: 0.35rem;
 }
 .team-avatar {
   width: 48px; height: 48px;

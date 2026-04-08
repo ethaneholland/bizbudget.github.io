@@ -7,7 +7,7 @@ title: BizBudget &ndash; COMP 3350
 <section id="hero">
   <p class="hero-eyebrow">COMP 3350 • Winter 2026 • Group A01&ndash;G14</p>
   <h1 class="hero-title">BizBudget<br><em>An operations tracker <br>for business owners.</em></h1>
-  <p class="hero-sub">BizBudget is an Android application that gives business owners a complete view of their employees, inventory, finances, and scheduling.</p>
+  <p class="hero-sub">BizBudget is an Android application that gives business owners a complete view of their employees, scheduling, inventory, and finances.</p>
   <div class="apk-button-container">
     <a href="assets/apk/bizbudget.apk"><span class="apk-button">Download APK</span></a>
   </div>
@@ -261,27 +261,62 @@ title: BizBudget &ndash; COMP 3350
       <div class="team-card reveal">
         <div class="team-avatar">D</div>
         <h3>Daniyal Chaudhry</h3>
-        <p class="team-bio">skills learned (temp)</p>
+        <div class="team-section">
+          <p class="team-section-label">Contributions</p>
+          <p class="team-bio">Contributed to employee creation, scheduling functionality, and export features.</p>
+        </div>
+        <div class="team-section">
+          <p class="team-section-label">Skills Learned</p>
+          <p class="team-bio">Strengthened skills in UI design, Android Studio development, integrating external APIs, and iterative development practices.</p>
+        </div>
       </div>
       <div class="team-card reveal">
         <div class="team-avatar">E</div>
         <h3>Ethan Holland</h3>
-        <p class="team-bio">skills learned (temp)</p>
+        <div class="team-section">
+          <p class="team-section-label">Contributions</p>
+          <p class="team-bio">contributions (temp)</p>
+        </div>
+        <div class="team-section">
+          <p class="team-section-label">Skills Learned</p>
+          <p class="team-bio">skills learned (temp)</p>
+        </div>
       </div>
       <div class="team-card reveal">
         <div class="team-avatar">Y</div>
         <h3>Youssof Mahmoud</h3>
-        <p class="team-bio">skills learned (temp)</p>
+        <div class="team-section">
+          <p class="team-section-label">Contributions</p>
+          <p class="team-bio">Contributed to login, employee, inventory, and financial dashboard features.</p>
+        </div>
+        <div class="team-section">
+          <p class="team-section-label">Skills Learned</p>
+          <p class="team-bio">Strengthened skills in UI design, testing, and iterative development.</p>
+        </div>
       </div>
       <div class="team-card reveal">
         <div class="team-avatar">E</div>
         <h3>Elyan Ali Momin</h3>
-        <p class="team-bio">skills learned (temp)</p>
+        <div class="team-section">
+          <p class="team-section-label">Contributions</p>
+          <p class="team-bio">contributions (temp)</p>
+        </div>
+        <div class="team-section">
+          <p class="team-section-label">Skills Learned</p>
+          <p class="team-bio">skills learned (temp)</p>
+        </div>
       </div>
       <div class="team-card reveal">
         <div class="team-avatar">V</div>
         <h3>Vaughn Toews</h3>
-        <p class="team-bio">skills learned (temp)</p>
+        <div class="team-section">
+          <p class="team-section-label">Contributions</p>
+          <p class="team-bio">contributions (temp)</p>
+        </div>
+        <div class="team-section">
+          <p class="team-section-label">Skills Learned</p>
+          <p class="team-bio">skills learned (temp)</p>
+        </div>
       </div>
     </div>
   </div>
