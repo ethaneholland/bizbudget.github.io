@@ -186,7 +186,7 @@ title: BizBudget &ndash; COMP 3350
               <ul>
                 <li>Through each iteration, team meetings progressively became shorter while maintaining similar output. The team grew more comfortable delegating, reviewing, and resolving issues. A joint understanding of the project scope, and each team-members strengths allowed problem-solving to become much more quick and effective.</li>
                 <li>Feature implementation became much more streamlined in Iteration 3, facilitated by a well-defined testing suite ensuring the stability of methods, architectural streams, and end to end functionality. Lessening the need for manual testing meant that features could be reviewed and merged much faster.</li>
-                <li>temp</li>
+                <li>Communication of task progress  was maintained through the three iterations. This consistent communication helped keep us on track and led to open discussions on design ideas before getting pigeon-holded into a single implementation. Any time there was a roadblock or a team member needed assistance, open and frequent communication facilitated good and prompt solutions.</li>
               </ul>
             </div>
           </div>
