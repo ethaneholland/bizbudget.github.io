@@ -270,11 +270,11 @@ title: BizBudget &ndash; COMP 3350
         <h3>Ethan Holland</h3>
         <div class="team-section">
           <p class="team-section-label">Contributions</p>
-          <p class="team-bio">contributions (temp)</p>
+          <p class="team-bio">Contributed to employee, inventory, image import features, refactors and testing.</p>
         </div>
         <div class="team-section">
           <p class="team-section-label">Skills Learned</p>
-          <p class="team-bio">skills learned (temp)</p>
+          <p class="team-bio">Understanding of how to separate code between layers, how to utilize git in a long term group project, and how to work with code that was written by others.</p>
         </div>
       </div>
       <div class="team-card reveal">
