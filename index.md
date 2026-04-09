@@ -37,13 +37,13 @@ title: BizBudget &ndash; COMP 3350
         <div class="user-card">
           <div>
             <h4>Business Owners</h4>
-            <p>Small to Medium scale business owners that want to have a holistic view of their businesses operational status and health.</p>
+            <p>Small to Medium scale business owners that want to have a holistic view of their businesses operational status and health. Metrics such as finances often require some level of accounting expertise, BizBudget allows business owners to stay in the loop without requiring expert knowledge.</p>
           </div>
         </div>
         <div class="user-card">
           <div>
             <h4>Managers</h4>
-            <p>Small to Medium scale business managers that want to track day-to-day operations such as inventory stock and shift scheduling to ensure that processes run smoothly.</p>
+            <p>Small to Medium scale business managers that want to track day-to-day operations such as inventory stock and shift scheduling to ensure that processes run smoothly. Managers need quick access to metrics such as employee shift scheduling, BizBudget allows this information to be quickly available at anytime from their phone.</p>
           </div>
         </div>
       </div>
