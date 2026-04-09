@@ -46,3 +46,15 @@ if (pmSections.length) {
   }, { rootMargin: '-30% 0px -60% 0px' });
   pmSections.forEach(s => pmObserver.observe(s));
 }
+
+const NAV_HEIGHT = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 64;
+document.querySelectorAll('.postmortem-nav a').forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      const top = target.getBoundingClientRect().top + window.scrollY - NAV_HEIGHT - 16;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
