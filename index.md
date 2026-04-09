@@ -296,11 +296,11 @@ title: BizBudget &ndash; COMP 3350
         <div class="team-content">
           <div class="team-section">
             <p class="team-section-label">Contributions</p>
-            <p class="team-bio">Contributed to login, employee, inventory, and financial dashboard features.</p>
+            <p class="team-bio">Contributed to the login, employee, inventory, and financial dashboard features, including UI implementation, feature integration, testing, and iterative improvements throughout development. </p>
           </div>
           <div class="team-section">
             <p class="team-section-label">Skills Learned</p>
-            <p class="team-bio">Strengthened skills in UI design, testing, and iterative development.</p>
+            <p class="team-bio">Strengthened skills in Android UI design, testing, debugging, and collaborative iterative development. I also gained more experience working across multiple features in a layered application and refining functionality based on team feedback. </p>
           </div>
         </div>
       </div>
