@@ -381,8 +381,8 @@ section { padding: 5rem 2rem; }
 
 #team { background: var(--medium-blue); }
 .team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 1.25rem;
   margin-top: 2.5rem;
 }
@@ -391,8 +391,30 @@ section { padding: 5rem 2rem; }
   border-radius: 6px;
   padding: 1.75rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0;
+}
+.team-name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 0.1rem;
+  width: 120px;
+  flex-shrink: 0;
+  padding-right: 1.5rem;
+}
+.team-divider {
+  width: 1px;
+  background: var(--medium-blue);
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.team-content {
+  flex: 1;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 .team-bio {
   font-size: 0.875rem;
@@ -406,6 +428,11 @@ section { padding: 5rem 2rem; }
   padding-top: 1rem;
   border-top: 1px solid var(--medium-blue);
 }
+.team-section:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
 .team-section-label {
   font-size: 0.7rem;
   font-family: var(--font);
@@ -415,7 +442,7 @@ section { padding: 5rem 2rem; }
   color: var(--bright-blue);
   margin-bottom: 0.35rem;
 }
-.team-avatar {
+.team-name-icon {
   width: 48px; height: 48px;
   background: var(--dark-blue);
   border-radius: 50%;
@@ -425,9 +452,9 @@ section { padding: 5rem 2rem; }
   font-family: var(--font);
   font-size: 1.3rem;
   color: var(--white);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
-.team-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0.15rem; }
+.team-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 0; text-align: center; }
 .team-card .team-role {
   font-size: 0.75rem;
   color: var(--bright-blue);
