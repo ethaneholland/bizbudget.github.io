@@ -28,6 +28,10 @@ ul { list-style-type: none; }
 
 img, video { max-width: 100%; display: block; }
 
+video {
+  background: #141414;
+}
+
 
 .site-nav {
   position: fixed;
