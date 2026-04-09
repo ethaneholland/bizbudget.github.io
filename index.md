@@ -124,17 +124,17 @@ title: BizBudget &ndash; COMP 3350
       </div>
       <div class="flow-step">
         <p class="step-num">02</p>
-        <h4>Manage Employees</h4>
-        <p>Browse your employee list, add new staff, edit details, or remove employees who have left. Active status updates automatically based on scheduled shifts</p>
-      </div>
-      <div class="flow-step">
-        <p class="step-num">03</p>
         <h4>Track Inventory</h4>
         <p>Add items, adjust stock, record sales, and monitor quantities across your products. Attempted oversells are caught and rejected to ensure a valid inventory list.</p>
       </div>
       <div class="flow-step">
+        <p class="step-num">03</p>
+        <h4>Manage Employees</h4>
+        <p>Browse your employee list, add new staff, edit details, or remove employees who have left. Active status updates automatically based on scheduled shifts</p>
+      </div>
+      <div class="flow-step">
         <p class="step-num">04</p>
-        <h4>Review Financials</h4>
+        <h4>Review Finances</h4>
         <p>View the businesses spending activity and income. Congregate financial data allows you to stay on top of financial health without pouring through spreasheets.</p>
       </div>
     </div>
