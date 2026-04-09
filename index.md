@@ -230,9 +230,6 @@ title: BizBudget &ndash; COMP 3350
               <p>Every day or two, members would communicate via group chat their progress, questions, and the design strategies that they are using to implement their features. Even if little progress has been made due to external commitments, these checkins ensured that the whole team had an understanding of their progress on the iteration.</p>
               <p>Two to three times a week the team would do quick audio-calls to discuss progress and any questions. These helped communicate statuses that are hard to articulate through text. For these meetings we prioritized frequency over mandatory attendance, if a team member was unable to attend we would still hold the meeting. Avoiding the burden of coordination that comes with mandatory attendance meant that we were able to hold the meetings at a much higher rate.</p>
             </div>
-            <div class="card-container blue">
-              <p>temp</p>
-            </div>
           </div>
         </div>
 
